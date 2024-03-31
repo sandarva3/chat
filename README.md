@@ -2,7 +2,6 @@
 
 # OverView
 This is a C program enables real-time communication between users on a local network.
-I built this simple project for fun.
 
 ## Getting Started
 By running the `client.exe` file, users can connect to a shared hotspot and chat seamlessly.
