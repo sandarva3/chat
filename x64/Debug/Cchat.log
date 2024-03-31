@@ -1,0 +1,25 @@
+﻿  Cchat.c
+C:\Users\Asus\Desktop\Cchat\Cchat\Cchat.c(67,18): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\Asus\Desktop\Cchat\Cchat\Cchat.c(74,37): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\Asus\Desktop\Cchat\Cchat\Cchat.c(94,48): warning C4013: 'inet_ntop' undefined; assuming extern returning int
+C:\Users\Asus\Desktop\Cchat\Cchat\Cchat.c(94,20): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+C:\Users\Asus\Desktop\Cchat\Cchat\Cchat.c(94,20): warning C4313: 'printf': '%s' in format string conflicts with argument 1 of type 'int'
+C:\Users\Asus\Desktop\Cchat\Cchat\Cchat.c(120,39): warning C4047: 'function': 'const char *' differs in levels of indirection from 'int'
+C:\Users\Asus\Desktop\Cchat\Cchat\Cchat.c(120,39): warning C4024: 'strncpy': different types for formal and actual parameter 2
+C:\Users\Asus\Desktop\Cchat\Cchat\Cchat.c(130,56): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+Cchat.obj : error LNK2019: unresolved external symbol __WSAFDIsSet referenced in function main
+Cchat.obj : error LNK2019: unresolved external symbol __imp_accept referenced in function main
+Cchat.obj : error LNK2019: unresolved external symbol __imp_bind referenced in function main
+Cchat.obj : error LNK2019: unresolved external symbol __imp_closesocket referenced in function main
+Cchat.obj : error LNK2019: unresolved external symbol __imp_getpeername referenced in function main
+Cchat.obj : error LNK2019: unresolved external symbol __imp_htons referenced in function main
+Cchat.obj : error LNK2019: unresolved external symbol __imp_listen referenced in function main
+Cchat.obj : error LNK2019: unresolved external symbol __imp_recv referenced in function main
+Cchat.obj : error LNK2019: unresolved external symbol __imp_select referenced in function main
+Cchat.obj : error LNK2019: unresolved external symbol __imp_send referenced in function main
+Cchat.obj : error LNK2019: unresolved external symbol __imp_setsockopt referenced in function main
+Cchat.obj : error LNK2019: unresolved external symbol __imp_WSAStartup referenced in function main
+Cchat.obj : error LNK2019: unresolved external symbol __imp_WSACleanup referenced in function main
+Cchat.obj : error LNK2019: unresolved external symbol __imp_WSASocketW referenced in function main
+Cchat.obj : error LNK2019: unresolved external symbol inet_ntop referenced in function main
+C:\Users\Asus\Desktop\Cchat\Cchat\x64\Debug\Cchat.exe : fatal error LNK1120: 15 unresolved externals
