@@ -7,7 +7,7 @@ This is a C program enables real-time communication between users on a local net
 By running the `client.exe` file, users can connect to a shared hotspot and chat seamlessly.
 Server file code is meant to be run/compiled on Windows OS.
 There's two files for client side code:
--**Wclient**: It's meant to run/compiled on Windows OS.
+- **Wclient**: It's meant to run/compiled on Windows OS.
 - **Aclient**: I modified the Windows code little bit and made it compatible with unix-like OS, to run it on Android.
 
 You can just directly download executable(.exe) files and run it.
