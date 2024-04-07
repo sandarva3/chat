@@ -47,7 +47,7 @@ int main() {
     // Set up the server address
     serv_addr.sin_family = AF_INET;
     serv_addr.sin_port = htons(8081);
-    serv_addr.sin_addr.s_addr = inet_addr("192.168.1.109");
+    serv_addr.sin_addr.s_addr = inet_addr("192.168.0.000"); //Enter IP address of server here.
 
     // Establish a connection with the server
     if (connect(sockfd, (struct sockaddr*)&serv_addr, sizeof(serv_addr)) == SOCKET_ERROR) {
