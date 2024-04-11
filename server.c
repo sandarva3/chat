@@ -6,6 +6,7 @@
 #define _WINSOCK_DEPRECATED_NO_WARNINGS
 
 #define MAX_CLIENTS 4
+//You Can increase number of clients accordingly, I kept it 4.
 #define INET_ADDRSTRLEN 16
 //THIS IS FOR WINDOWS OS. I DIDN'T MODIFIED SERVER FILE TO MAKE IT COMPATILBE ON UNIX-LIKE OS.
 //IN LINE with 'UPDATED': we will be printing client's name not ipAddress, so we remove those lines.
